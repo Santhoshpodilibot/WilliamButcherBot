@@ -1,7 +1,7 @@
 {
-    "name": "WilliamButcherBot",
+    "name": "SANTHOSH",
     "description": "Telegram Group Management Bot Written In Python Using Pyrogram.",
-    "repository": "https://github.com/TheHamkerCat/WilliamButcherBot",
+    "repository": "https://github.com/Santhoshpodilibot/WilliamButcherBot.git",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
     "keywords": [
     "python3",
@@ -11,7 +11,7 @@
     "telegram-bot",
     "pyrogram"
     ],
-    "repository": "https://github.com/TheHamkerCat/WilliamButcherBot",
+    "repository": "https://github.com/Santhoshpodilibot/WilliamButcherBot.git",
     "stack": "container",
     "env": {
         "BOT_TOKEN": {
@@ -48,7 +48,7 @@
         },
         "MONGO_URL": {
             "description": "Get From Here. https://telegra.ph/How-To-get-Mongodb-URI-04-06",
-            "required": true
+            "required": false
         },
         "ARQ_API_URL": {
             "description": "For Music Downloading And Many More Things... Don't change this value",
