@@ -48,7 +48,7 @@
         },
         "MONGO_URL": {
             "description": "Get From Here. https://telegra.ph/How-To-get-Mongodb-URI-04-06",
-            "required": false
+            "required": true
         },
         "ARQ_API_URL": {
             "description": "For Music Downloading And Many More Things... Don't change this value",
