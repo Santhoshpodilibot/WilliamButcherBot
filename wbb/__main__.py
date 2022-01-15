@@ -107,35 +107,34 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Commands ❓", callback_data="bot_commands"
+                text="Santhu Commands ❓", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
                 text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                url="https://t.me/santhu_music_bot",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 🖥",
-                callback_data="stats_callback",
-            ),
+                text="Channel Support 💪", url="https://t.me/santhubotupadates",
+            ), 
             InlineKeyboardButton(
-                text="Support 👨", url="http://t.me/WBBSupport"
+                text="Support 👨", url="http://t.me/newsstreamer"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="Add Me To Your Group 🎉",
+                text="😊 Nanu Add Chesuko 😘",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
-            )
+            ) 
         ],
     ]
 )
 
 home_text_pm = (
-    f"Hey there! My name is {BOT_NAME}. I can manage your "
-    + "group with lots of useful features, feel free to "
-    + "add me to your group."
+    f"Hey there! My name is {BOT_NAME}. 𝙷𝙸 𝙽𝙴𝙽𝚄 𝚂𝙰𝙽𝚃𝙷𝙾𝚂𝙷 𝙱𝙾𝚃 𝙽𝙸 "
+    + "𝙽𝙴𝙽𝚄 𝙼𝙴 𝙶𝚁𝙾𝚄𝙿 𝙲𝙷𝙰𝙻𝙰 𝚂𝙸𝙼𝙿𝙻𝙴 𝙶𝙰 𝙼𝙰𝙽𝙰𝙶𝙴 𝙲𝙷𝙴𝚂𝚃𝙰 "
+    + "𝙽𝙰𝙽𝚄 𝙰𝙳𝙳 𝙲𝙷𝙴𝚂𝚄 𝙺𝙾𝙽𝙳𝙸."
 )
 
 
@@ -143,20 +142,19 @@ keyboard = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Help ❓",
+                text="Santhu Help ❓",
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
                 text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                url="https://t.me/newsstreamer",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 💻",
-                callback_data="stats_callback",
+                text="Channel Support 💪", url="https://t.me/santhubotupadates",
             ),
-            InlineKeyboardButton(text="Support 👨", url="t.me/WBBSupport"),
+            InlineKeyboardButton(text="Support 👨", url="t.me/newsstreamer"),
         ],
     ]
 )
